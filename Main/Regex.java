@@ -14,14 +14,14 @@
  *     http://www.cin.ufpe.br/~hemr/
  * ******************************************************************/
 
-package postfix.lexer;
+package Main;
 
 /**
  * @author Henrique Rebelo
  */
 public class Regex {
 	// regex for literals recognition
-	private static final String NUM_REGEX = "(\\d)+"; // short for [0-9]
+	static final String NUM_REGEX = "(\\d)+"; // short for [0-9]
 	// regex for single-character operation recognition.
 	private static final String OP_REGEX = "(\\+|-|\\*|/)"; // recognizes as an operation
 	private static final String PLUS_REGEX = "(\\+)"; // for plus operation recognition

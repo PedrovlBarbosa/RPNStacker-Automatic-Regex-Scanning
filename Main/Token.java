@@ -4,6 +4,7 @@ package Main;
  */
 public class Token {
 
+	public static final String TOKENIZER_DELIMITER = "\t\n\r\f ";
 	public final TokenType type; // token type
 	public final String lexeme; // token value
 
